@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montez&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+  display: flex;
+  gap: 2rem;
+  width: 80%;
+  margin: 5rem auto;
+}
+.card_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card1 {
+  background: #944e63;
+  padding: 3rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+.card2 {
+  background: #40a2e3;
+  padding: 3rem;
+  font-family: "Montez", cursive;
+}
+.card3 {
+  background: rgb(160, 40, 40);
+  padding: 3rem;
+}
+p {
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+.card1 p {
+  color: #ffe7e7;
+}
+.card2 p {
+  color: #fff6e9;
+}
+.card3 p {
+  color: white;
+}
+.card1,
+.card2,
+.card3 {
+  border-radius: 1rem;
+}
+ion-icon {
+  font-size: 3rem;
+}
+h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.card2 ion-icon {
+  color: green;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background: #3E3232;
+  color: #fff;
+}
+.nav-menu ul {
+  display: flex;
+  gap: 2rem;
+  margin: 4rem 4rem;
+}
+.nav-menu ul a li {
+  color: #fff;
+  font-size: 2rem;
+
+}
+.nav label {
+  margin: 4rem 4rem;
+  color: #fff;
+  font-size: 2rem;
+}
+.nav-menu ul a li:hover {
+  background: #fff;
+  color: #3E3232;
+  padding: 1rem;
+  transition: 0.5s ease;
+  border-radius: 10px;
+  text-decoration: underline;
+}
